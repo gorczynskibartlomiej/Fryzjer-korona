@@ -1,0 +1,25 @@
+-------------------------------------
+Konto wlasciciela
+
+email: jpaleta@poczta.pl
+haslo: 1234
+
+-------------------------------------
+Konta pracowników
+
+email: adzwonek@poczta.pl
+haslo: 1234
+
+email: bgorzynski@poczta.pl
+haslo: 1234
+
+-------------------------------------
+Konta klientow
+
+email: mmarucha@poczta.pl
+haslo: 1234
+
+email: aciesielski@poczta.pl
+haslo: 1234
+
+-------------------------------------

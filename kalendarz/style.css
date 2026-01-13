@@ -1,0 +1,1296 @@
+﻿/* ogolne */
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans Unicode';
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+h1
+{
+    padding: 0;
+    margin: 0;
+}
+
+.strona
+{
+    width: 1280px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+.banner {
+    max-width: 100%;
+    height: 7em;
+    background-color: lightskyblue;
+    border-bottom:1px solid black;
+}
+.banner-logo {
+    float: left;
+}
+.banner h1
+{
+    float: left;
+    max-width: 50%;
+}
+.banner-profile
+{
+    float: right;
+    width: 50%;
+    height: 3.2em;
+}
+.profil-email
+{
+    float: right;
+    height: 100%;
+    margin-right: 1em;
+    cursor: pointer;
+}
+.log
+{
+    float: right;
+    height: 100%;
+    margin-right: 1em;
+    cursor: pointer;
+}
+.log a, .profil-email a
+{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1em;
+    height: 100%;
+    border-radius: 0.5em;
+}
+.profil-email a:hover, .log a:hover {
+    background-color: dodgerblue;
+}
+.nav
+{
+    clear: both;
+}
+.nav a
+{
+    text-decoration: none;
+    color: black;
+}
+.nav ul
+{
+    background-color: lightskyblue;
+    width: 100%;
+    height: 3em;
+    padding: 0;
+    margin: 0;
+    font-weight: bolder;
+}
+.nav li {
+    float: left;
+    list-style: none;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.nav li:hover
+{
+    background-color: dodgerblue;
+    color:white;
+}
+.notifications
+{
+    background-color: red;
+    color: white;
+    border-radius: 1em;
+}
+.content {
+    width: 100%;
+    min-height: 700px;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.stopka
+{
+    width: 100%;
+    height: auto;
+    clear: both;
+    text-align: center;
+    font-size: smaller;
+
+    background-color: lightskyblue;
+}
+.stopka p
+{
+    width: 80%;
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* kontact */
+.contact
+{
+    width: 50%;
+    background-color: lightskyblue;
+    border-radius: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* komunikaty */
+.blad
+{
+    height: auto;
+    width: 40%;
+    background-color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: red;
+    border: solid 5px red;
+    border-radius: 1em;
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    right: 30%;
+    box-shadow: 0.5em 0.5em 2em black;
+    text-align: center;
+    visibility: hidden;
+    cursor: default;
+}
+.blad p 
+{
+    font-size: large;
+    color: black;
+}
+.blad p a
+{
+    color: blue;
+}
+.blad p a:hover
+{
+    text-decoration: underline;
+}
+.informacja
+{
+    height: auto;
+    width: 40%;
+    background-color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: green;
+    border: solid 5px green;
+    border-radius: 1em;
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    right: 30%;
+    box-shadow: 0.5em 0.5em 2em black;
+    text-align: center;
+    /* visibility: hidden; */
+    cursor: default;
+}
+.informacja p
+{
+    font-size: large;
+    color: black;    
+}
+.potwierdz
+{
+    height: auto;
+    width: 40%;
+    top: 20%;
+    left: 30%;
+    right: 30%;
+    background-color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: black;
+    border: solid 5px black;
+    border-radius: 1em;
+    position: fixed;
+    box-shadow: 0.5em 0.5em 2em black;
+    text-align: center;
+    visibility: hidden;
+    cursor: default;
+}
+.potwierdz p
+{
+    padding-top: 0.7em;
+}
+    .potwierdz a {
+        border: black 2px solid;
+        padding: 0.5em 3em;
+        margin: 0 0.3em;
+        border-radius: 3em;
+        cursor: pointer;
+    }
+    .potwierdz a:hover {
+        border: dodgerblue 2px solid;
+        padding: 0.5em 3em;
+        color:white;
+        background-color:dodgerblue;
+        margin: 0 0.3em;
+        border-radius: 3em;
+        cursor: pointer;
+    }
+
+/* index */
+.index-baner
+{
+    width: 100%;
+}
+.index-content
+{
+    width: 100%;
+    text-align: center;
+}
+.index-content p
+{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.index-przycisk
+{
+    width: 25%;
+    margin: 1em auto 1em auto;
+}
+.index-przycisk a
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    color: black;
+    background-color: lightskyblue;
+    border-radius: 2em;
+}
+.index-przycisk a:hover
+{
+    background-color: dodgerblue;
+}
+
+/* uslugi */
+.uslugi
+{
+    width: 95%;
+    height: 100%;
+    padding: 1%;
+}
+.usluga
+{
+    width:100%;
+    height:auto;
+    float:left;
+    border-bottom: rgb(97, 97, 97) 1px solid;
+    margin-bottom: 2em;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.usluga-nazwa
+{
+    float:left;
+    width: 75%;
+    font-size:x-large;
+    padding-bottom: 0.3em;
+    font-weight: bold;
+}
+.usluga-cena
+{
+    float: left;
+    width: 25%;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: right;
+    padding-bottom: 0.3em;
+}
+.usluga-umow
+{
+    float: left;
+    width: 25%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+    .usluga-umow a {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        border: dodgerblue 2px solid;
+        border-radius: 1em;
+        font-weight: bolder;
+    }
+.usluga-umow a:hover
+{
+    color: white;
+    background-color: dodgerblue;
+    border: dodgerblue 2px solid;
+}
+.usluga-usun
+{
+    float: left;
+    width: 25%;
+    font-size: x-large;
+    text-align: right;
+    padding-bottom: 0.3em;
+}
+.usluga-usun a
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    border: red 2px solid;
+    border-radius: 1em;
+}
+.usluga-usun a:hover
+{
+    color: white;
+    font-weight: bolder;
+    background-color: red;
+    border: red 2px solid;
+}
+.usluga-czas
+{
+    float: left;
+    width: 75%;
+    display: flex;
+    align-content: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.edytujUslugi
+{
+    font-size: xx-large;
+    margin: -1.5em auto 0.2em auto;
+    padding: 1em 2em;
+    width: 40%;
+}
+    .edytujUslugi a {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex: 1;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-decoration: none;
+        background-color: white;
+        border: 2px solid dodgerblue;
+        color: black;
+        border-radius: 0.5em;
+    }
+    .edytujUslugi a:hover {
+        background-color: dodgerblue;
+        border: 2px solid dodgerblue;
+        color: white;
+    }
+
+/* kalendarz */
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+td
+{
+    padding: 1.5em;
+    text-align: center;
+    height: 50px;
+    width: 75px;
+    font-size: large;
+}
+td a {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+    text-decoration: none;
+    background-color: lightskyblue;
+}
+td a:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+th {
+    font-size: x-large;
+    background: dodgerblue;
+    border: solid transparent 3px;
+}
+.calendar table tr:last-child th
+{
+    background: white;
+}
+th a {
+    font-size: 1.5em;
+}
+th a:hover {
+    font-size: 1.5em;
+    color:white;
+}
+.calendar
+{
+    height: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 21px;
+}
+.calendar-legends .unavailable
+{
+    color: rgb(234, 234, 234);
+    font-size: xx-large;
+}
+.calendar-legends .available
+{
+    color: lightskyblue;
+    font-size: xx-large;
+}
+/*
+#calendar-month
+{
+    
+    border: solid transparent 3px;
+}*/
+.calendar-day {
+    background-color: lightskyblue;
+    border: solid rgb(240, 240, 240) 3px;
+}
+.calendar-day:hover
+{
+    background-color: dodgerblue;
+    font-weight: bolder;
+    padding: 0; 
+    color: white;
+}
+.calendar-day-closed
+{
+    border: solid rgb(240, 240, 240) 3px;
+    background-color: rgb(234, 234, 234);
+}
+
+/* dzien */
+#dzien-data
+{
+    background-color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 100%;
+    display:flex;
+    flex-wrap:wrap;
+    place-content:center;
+    text-align: center;
+    font-size: large;
+}
+#dzien-data-w {
+    width: 50%;
+    background-color: lightskyblue;
+    border: 2px solid dodgerblue;
+    border-radius: 1em;
+}
+.zmienGodzPracy
+{
+    position: absolute;
+    right: 17%;
+    padding: 0.67em 1em 1em 1em;
+    font-size: large;
+    background-color: whitesmoke;
+    border-radius: 0.7em;
+    border: none;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.dzien-info
+{
+    height: 75px;
+    width: 100%;
+    clear: both;
+}
+.dzien-info:last-child
+{
+    margin-bottom: 2em;
+}
+/* .dzien-info:first-child NA POZNIEJ MOZE XD
+{
+    color: brown;
+    border-bottom: gray solid 6px;
+    font-size: 200em;
+} */
+.dzien-info-ogolne {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 75px;
+    max-height: 75px;
+    width: 250px;
+    float: left;
+    background-color: lightskyblue;
+    border-right: gray solid 2px;
+}
+.dzien-info-niedostepny
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 75px;
+    max-height: 75px;
+    width: 250px;
+    float: left;
+    color:gray;
+}
+.dzien-info-wolne {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 75px;
+    width: 250px;
+    float: left;
+    color: black;
+    cursor: pointer;
+    border-right: gray solid 2px;
+    /* // border-bottom: gray solid 2px; */
+    background-color: palegreen;
+}
+.dzien-info-wolne:hover
+{
+    color: black;
+    background-color:rgb(132, 232, 132);
+}
+.dzien-info-zajete {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 75px;
+    width: 250px;
+    float: left;
+    background-color: rgb(214, 214, 214);
+    border-right: gray solid 2px;
+}
+
+/* log, rejestracja, editUser, addUser */
+.logowanie
+{
+    padding-top: 100px;
+    min-height: 600px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logowanie p:nth-child(4)
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.logowanie p input
+{
+    padding: 0.5em;
+    width: 300px;
+}
+.logowanie p input[type=submit]
+{
+    text-align: center;
+    padding: 0.5em 1em;
+    width: 150px;
+}
+.logowanie h2
+{
+    padding: 0.1em;
+    margin: 0;
+    text-align: center;
+}
+.logowanie form p
+{
+    text-align: center;
+}
+.logowanie form p a
+{
+    color: blue;
+}
+.logowanie form p a:hover
+{
+    text-decoration: underline;
+}
+.logpanel-co
+{
+    width: 25%;
+    float: left;
+    padding-bottom: 1em;
+}
+.logpanel-input
+{
+    width: 75%;
+    float: left;
+    padding-bottom: 1em;
+}
+.logpanel-input input
+{
+    width: 100%;
+    padding: 0.5em;
+}
+.bledne
+{
+    color: red;
+    min-height: 0;
+    padding: 0;
+}
+
+/* godzPracy */
+.godzPracy
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    font-size: xx-large;
+    text-align: center;
+}
+.godzPracy form label
+{
+    font-size: x-large;
+    display: block;
+    text-align: left;
+}
+.godzPracy form label input[type=checkbox]
+{
+    font-size: x-large;
+}
+.godzPracy form input[type=submit]
+{
+    font-size: x-large;
+    padding: 0.4em;
+}
+input[type=date], input[type=time]
+{
+    font-size: xx-large;
+}
+
+/* zarzadzanie */
+.dodaj-pracownika
+{
+    font-size: xx-large;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.2em;
+    margin-bottom: 0;
+    padding: 1em 2em;
+    width: 40%;
+}
+.dodaj-pracownika a
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    background-color: white;
+    border: 0.1em solid dodgerblue;
+    color: black;
+    border-radius: 3em;
+}
+    .dodaj-pracownika a:hover {
+        background-color: dodgerblue;
+        border: 0.1em solid dodgerblue;
+        color: white;
+    }
+.pracownicy
+{
+    width: 95%;
+    height: 100%;
+    padding: 1%;
+}
+.pracownik
+{
+    width:100%;
+    height:auto;
+    float:left;
+    border-bottom: rgb(97, 97, 97) 1px solid;
+    margin-bottom: 2em;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pracownik-info
+{
+    float: left;
+    width: 75%;
+    height: 100%;
+}
+.pracownik-nazwa
+{
+    float:left;
+    width: 100%;
+    font-size:x-large;
+    padding-bottom: 0.3em;
+    font-weight: bold;
+}
+.pracownik-dane
+{
+    float: left;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.pracownik-przyciski
+{
+    height: 100%;
+    width: 25%;
+    float: right;
+}
+.pracownik-usun
+{
+    width: 98%;
+    font-size: x-large;
+    text-align: right;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: red;
+    border: red 2px solid;
+    border-radius: 1em;
+    margin-bottom: 0.79em;
+    cursor: pointer;
+}
+.pracownik-usun:hover
+{
+    color: white;
+    background-color: red;
+    border: red 2px solid;
+}
+.pracownik-edytuj
+{
+    width: 98%;
+    font-size: x-large;
+    text-align: right;
+    display: flex;
+    align-content: center;
+    justify-content: center;    
+    margin-bottom: 0.79em;
+}
+.pracownik-edytuj a
+{
+    display: flex;
+    color: black;
+    border: dodgerblue 2px solid;
+    border-radius: 1em;
+    flex: 1;
+    justify-content: center;
+    height: 100%;
+    cursor: pointer;
+}
+    .pracownik-edytuj a:hover {
+        background-color: dodgerblue;
+        color: white;
+        border: dodgerblue 2px solid;
+    }
+.pracownik-reset {
+    width: 98%;
+    font-size: x-large;
+    text-align: right;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: black;
+    border: dodgerblue 2px solid;
+    border-radius: 1em;
+    margin-bottom: 0.79em;
+    cursor: pointer;
+}
+.pracownik-reset:hover {
+    background-color: dodgerblue;
+    color: white;
+    border: black 2px dodgerblue;
+}
+
+/* wizyty */
+.wizyty
+{
+    width: 95%;
+    height: 100%;
+    padding: 1%;
+}
+.wizyta
+{
+    width:100%;
+    height:auto;
+    float:left;
+    border-bottom: rgb(97, 97, 97) 1px solid;
+    margin-bottom: 2em;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wizyta-info
+{
+    float:left;
+    width: 55%;
+    font-size:x-large;
+    padding-bottom: 0.3em;
+    font-weight: bold;
+    cursor: default;
+    color:black;
+}
+.wizyta-info form
+{
+    display: inline;
+}
+.wizyta-info form input
+{
+    background-color: transparent;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+}
+.wizyta-info form input:hover
+{
+    color: red;
+}
+.wizyta-cena {
+    float: left;
+    width: 25%;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: right;
+    padding-bottom: 0.3em;
+}
+.wizyta-czas {
+    float: left;
+    width: 55%;
+    display: flex;
+    align-content: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.wizyta-kto {
+    float: left;
+    width: 25%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.wizyta-potwierdz
+{
+    width:100%;
+    height:auto;
+    float:left;
+    border-bottom: rgb(97, 97, 97) 1px solid;
+    margin-bottom: 2em;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wizyta-zatwierdz
+{
+    width: 20%;
+}
+.wizyta-zatwierdz input[type=submit]
+{
+    width: 90%;
+    font-size: larger;
+    border-radius: 1em;
+    float: right;
+    border:2px dodgerblue solid;
+    background-color:white;
+}
+
+.wizyta-zatwierdz input[type=submit]:hover
+{
+    background-color: dodgerblue;
+    color: white;
+}
+.wizyta-potwierdzono
+{
+    width: 20%;
+}
+.wizyta-potwierdzono input[type=submit]
+{
+    width: 90%;
+    font-size: larger;
+    border-radius: 1em;
+    float: right;
+    border:2px dodgerblue solid;
+    background-color:white;
+    color: green;
+}
+.wizyta-niepotwierdzono
+{
+    width: 20%;
+}
+.wizyta-niepotwierdzono input[type=submit]
+{
+    width: 90%;
+    font-size: larger;
+    border-radius: 1em;
+    float: right;
+    border:2px dodgerblue solid;
+    background-color:white;
+    color: red;
+}
+
+/* rezerwacja */
+#rezerwacja
+{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: mediumaquamarine;
+    text-align: center
+}
+#rezerwacja input
+{
+    background-color: none;
+    border: 0;
+}
+
+/* profil */
+.profil-main
+{
+    width: 100%;
+}
+.edycjaProfilu
+{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    height: auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.edycjaProfilu p:nth-child(4)
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.edycjaProfilu p input
+{
+    padding: 0.5em;
+    width: 300px;
+}
+.edycjaProfilu p input[type=submit]
+{
+    text-align: center;
+    padding: 0.5em 1em;
+    width: 150px;
+}
+.edycjaProfilu h2
+{
+    padding: 0.1em;
+    margin: 0;
+    text-align: center;
+}
+.edycjaProfilu form p
+{
+    text-align: center;
+}
+.edycjaProfilu form p a
+{
+    color: blue;
+}
+.edycjaProfilu form p a:hover
+{
+    text-decoration: underline;
+}
+
+/* edytujGodzPracy */
+.edytujGodzContent
+{
+    width: 100%;
+    height: auto;
+    font-size: x-large;
+    text-align: center;
+}
+.edytujGodz
+{
+    width: 90%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    height: 2em;
+    border: 3px dodgerblue solid;
+    border-radius: 1em;
+    margin-top: 0.3em;
+    margin-left:auto;
+    margin-right:auto;
+}
+.edytujGodz:last-child
+{
+    border: 3px transparent solid;
+}
+.edytujGodz-pracownik
+{
+    width: 40%;
+    float: left;
+    height: 100%;
+}
+.edytujGodz-godziny
+{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.edytujGodz-przycisk
+{
+    width: 20%;
+    float: left;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.edytujGodz-przycisk input
+{
+    font-size: large;
+    padding: 0.7em 1em;
+    border-radius: 0.7em;
+}
+.edytujGodz-wolny
+{
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.edytujGodz-wolny input
+{
+    font-size: large;
+    padding: 0.7em 1em;
+    border-radius: 0.7em;
+}
+
+/* wizytaDlaKogos */
+.wizytaDlaKogos
+{
+    width: 100%;
+    height: auto;
+}
+.wyszukaj
+{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+    height: 3em;
+}
+.wyszukaj input[type=text]
+{
+    margin-left: 15%;
+    width: 50%;
+    font-size: large;
+    padding: 0.5em 2em;
+}
+.wyszukaj input[type=submit]
+{
+    text-align: center;
+    font-size: large;
+    padding: 0.5em 2em;
+    width: 15%;
+    background-color: white;
+    border: 0.1em solid rgb(118, 118, 118);
+}
+.dodaj-klienta
+{
+    font-size: xx-large;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    height: 3em;
+    width: 40%;
+}
+.dodaj-klienta a
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    background-color: white;
+    border: 0.1em solid blue;
+    color: blue;
+    border-radius: 3em;
+}
+.dodaj-klienta a:hover
+{
+    background-color: blue;
+    border: 0.1em solid blue;
+    color: white;
+}
+.klienci
+{
+    width: 95%;
+    height: 100%;
+    padding: 1%;
+}
+.klient
+{
+    width:100%;
+    height:auto;
+    float:left;
+    border-bottom: rgb(97, 97, 97) 1px solid;
+    margin-bottom: 2em;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.klient-info
+{
+    float: left;
+    width: 75%;
+    height: 100%;
+}
+.klient-nazwa
+{
+    float:left;
+    width: 100%;
+    font-size:x-large;
+    padding-bottom: 0.3em;
+    font-weight: bold;
+}
+.klient-dane
+{
+    float: left;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.klient-przyciski
+{
+    height: 100%;
+    width: 25%;
+    float: right;
+}
+/* .klient-usun
+{
+    width: 98%;
+    font-size: x-large;
+    text-align: right;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: red;
+    border: red 2px solid;
+    border-radius: 1em;
+    margin-bottom: 0.79em;
+    cursor: pointer;
+} */
+/* .klient-usun:hover
+{
+    color: white;
+    font-weight: bolder;
+    background-color: red;
+    border: red 2px solid;
+} */
+.klient-przycisk
+{
+    width: 98%;
+    font-size: x-large;
+    text-align: right;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: black;
+    border: dodgerblue 2px solid;
+    border-radius: 1em;
+    margin-bottom: 0.79em;
+    cursor: pointer;
+}
+.klient-przycisk:hover
+{
+    background-color: dodgerblue;
+    font-weight: bolder;
+    color: white;
+}
+/* .klient-reset
+{
+    width: 98%;
+    font-size: x-large;
+    text-align: right;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: black;
+    border: black 2px solid;
+    border-radius: 1em;
+    margin-bottom: 0.79em;
+    cursor: pointer;
+}
+.klient-reset:hover
+{
+    background-color: black;
+    font-weight: bolder;
+    color: white;
+    border: black 2px solid;
+} */
+
+.edytujUsluge
+{
+    margin-bottom: 2em;
+    font-size: medium;
+    border: 2px dodgerblue solid;
+    border-radius: 1em;
+    padding: 1em;
+}
+.edytujUsluge form input
+{
+    font-size: large;
+    padding: 0.2em 1em;
+    margin-left: 3em;
+}
+.edytujUsluge form input[type=text]
+{
+    font-size: large;
+    padding: 0.2em 1em;
+    width: 25em;
+}
+.edytujUsluge form input[type=number]
+{
+    font-size: large;
+    padding: 0.2em 1em;
+    width: 3em;
+}
